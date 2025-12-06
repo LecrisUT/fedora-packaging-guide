@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+project = "Fedora packaging guide"
 author = "Cristian Le"
 copyright = "Cristian Le"
 
