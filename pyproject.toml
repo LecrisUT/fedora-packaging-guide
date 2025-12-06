@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2025 Cristian Le <fedora@lecris.me>
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
+[dependency-groups]
+docs = [
+    "sphinx",
+    "myst-parser",
+    "furo",
+    "sphinx-design",
+]
+dev = [
+    { include-group = "docs" },
+    "sphinx-autobuild",
+]

@@ -1,0 +1,25 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: "v6.0.0"
+    hooks:
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: check-toml
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+  - repo: https://codeberg.org/fsfe/reuse-tool
+    rev: "v6.2.0"
+    hooks:
+      - id: reuse
+  - repo: https://github.com/astral-sh/uv-pre-commit
+    rev: "0.9.15"
+    hooks:
+      # uv-lock does not work with no project table :/
+      # - id: uv-lock
+      - id: uv-export
+        args: [ "--frozen", "--output-file=pylock.toml", "--quiet", "--all-groups" ]
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.14.8
+    hooks:
+      - id: ruff-format

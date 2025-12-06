@@ -1,0 +1,24 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "schedule:weekly",
+    ":enablePreCommit",
+    ":semanticCommitsDisabled"
+  ],
+  "separateMajorMinor": false,
+  "configMigration": true,
+  "packageRules": [
+    {
+      "groupName": "Dependencies",
+      "matchManagers": [
+        "github-actions",
+        "pre-commit",
+        "pep621"
+      ],
+      "matchDepTypes": [
+        "dependency-groups"
+      ]
+    }
+  ]
+}

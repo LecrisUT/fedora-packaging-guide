@@ -1,0 +1,37 @@
+name: CI
+run-name: >
+  CI (${{ github.event_name }})
+  ${{ github.event_name == 'pull_request' && format('PR#{0}', github.event.number) || '' }}
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pre-commit:
+    uses: ./.github/workflows/step_pre-commit.yaml
+
+  docs:
+    name: 📘 docs
+    needs: [ pre-commit ]
+    uses: ./.github/workflows/step_docs.yaml
+
+  pass:
+    name: Pass
+    needs: [ pre-commit, docs ]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: re-actors/alls-green@release/v1
+        with:
+          jobs: ${{ toJSON(needs) }}
+          allowed-skips: coverage
+    if: always()
