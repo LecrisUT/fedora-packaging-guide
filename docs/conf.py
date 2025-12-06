@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 author = "Cristian Le"
+copyright = "Cristian Le"
 
 extensions = [
     "myst_parser",
