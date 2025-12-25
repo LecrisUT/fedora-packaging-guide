@@ -8,6 +8,7 @@ extensions = [
     "myst_parser",
     "sphinx_design",
     "sphinx.ext.todo",
+    "sphinx_subfigure",
 ]
 
 html_theme = "furo"

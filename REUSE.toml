@@ -12,6 +12,7 @@ path = [
 	".readthedocs.yaml",
 	"README.md",
 	"docs/*.md",
+	"docs/images/**",
 	"docs/conf.py",
 ]
 SPDX-FileCopyrightText = "2025 Cristian Le <fedora@lecris.me>"

@@ -11,12 +11,14 @@ dev = [
     { name = "sphinx" },
     { name = "sphinx-autobuild" },
     { name = "sphinx-design" },
+    { name = "sphinx-subfigure" },
 ]
 docs = [
     { name = "furo" },
     { name = "myst-parser" },
     { name = "sphinx" },
     { name = "sphinx-design" },
+    { name = "sphinx-subfigure" },
 ]
 
 [[package]]
@@ -426,6 +428,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/2b/69/b34e0cb5336f09c6866d53b4a19d76c227cdec1bbc7ac4de63ca7d58c9c7/sphinx_design-0.6.1.tar.gz", hash = "sha256:b44eea3719386d04d765c1a8257caca2b3e6f8421d7b3a5e742c0fd45f84e632", size = 2193689, upload-time = "2024-08-02T13:48:44.277Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c6/43/65c0acbd8cc6f50195a3a1fc195c404988b15c67090e73c7a41a9f57d6bd/sphinx_design-0.6.1-py3-none-any.whl", hash = "sha256:b11f37db1a802a183d61b159d9a202314d4d2fe29c163437001324fe2f19549c", size = 2215338, upload-time = "2024-08-02T13:48:42.106Z" },
+]
+
+[[package]]
+name = "sphinx-subfigure"
+version = "0.2.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "sphinx" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c7/b9/fbacae5a5439fc08b5403c9b6f3253ad2fb3af8dd3234e358be3fa3ab272/sphinx_subfigure-0.2.4.tar.gz", hash = "sha256:d106193d0076bf29bb9594dbda23d3c13e9b2490e4344bc8018b6059a195de3b", size = 576230, upload-time = "2022-09-28T07:54:30.246Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/0d/4a/3dcdf5e9bbc05dce85ee154b1ec3507427a2c2332834bd4e5f0541626c3e/sphinx_subfigure-0.2.4-py3-none-any.whl", hash = "sha256:535c890e0c431e9d0ad635f96b91b311560b02300197accc1ec664cb28af44f3", size = 9152, upload-time = "2022-09-28T07:54:20.958Z" },
 ]
 
 [[package]]
