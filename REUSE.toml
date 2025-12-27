@@ -28,3 +28,12 @@ path = [
 precedence = "override"
 SPDX-FileCopyrightText = "NONE"
 SPDX-License-Identifier = "CC0-1.0"
+
+# Downstream spec files do not have clear copyright/license
+[[annotations]]
+path = [
+	"docs/**/*.spec",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "CC0-1.0"
