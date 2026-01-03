@@ -72,9 +72,9 @@ Upstream source repo
 
 ```{note}
 Building rpms with upstream sources is a more involved process requiring quite
-some automation. This will be covered in section [][upstream]
+some automation. This will be covered in the [][upstream] section
 ```
-[upstream]: upstream.md
+[upstream]: upstream.md#upstream-packaging
 :::
 
 ::::
