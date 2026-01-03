@@ -12,6 +12,7 @@ where_to_start
 how_to_read
 how_to_build
 automation
+downstream
 becoming_packager
 upstream
 whats_next
