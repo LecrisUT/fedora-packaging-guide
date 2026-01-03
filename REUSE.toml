@@ -11,7 +11,7 @@ path = [
 	".pre-commit-config.yaml",
 	".readthedocs.yaml",
 	"README.md",
-	"docs/*.md",
+	"docs/**/*.md",
 	"docs/images/**",
 	"docs/conf.py",
 ]

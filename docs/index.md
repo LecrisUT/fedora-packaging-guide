@@ -5,7 +5,7 @@ build and packaging process, and give just enough details for one to be able
 to start hacking around.
 
 ```{toctree}
-:caption: Questions
+:caption: Guiding questions
 :maxdepth: 1
 
 where_to_start
@@ -15,6 +15,13 @@ automation
 becoming_packager
 upstream
 whats_next
+```
+
+```{toctree}
+:hidden:
+:caption: Frequently asked questions
+
+build_faq/index
 ```
 
 ## License and reuse
