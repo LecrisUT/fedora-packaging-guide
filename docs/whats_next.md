@@ -77,6 +77,6 @@ Add instructions using artifact interface
 [#devel]: https://matrix.to/#/#devel:fedoraproject.org
 [#fedora-space]: https://matrix.to/#/#fedora-space:fedoraproject.org
 [#join]: https://matrix.to/#/#join:fedoraproject.org
-[Change proposals]: https://fedoraproject.org/wiki/Changes
+[Change proposals]: https://discussion.fedoraproject.org/c/project/changes/89
 [devel mailing list]: https://lists.fedoraproject.org/archives/list/devel@lists.fedoraproject.org/
 [tmt]: https://tmt.readthedocs.io/en/stable/index.html
