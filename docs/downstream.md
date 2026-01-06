@@ -12,11 +12,8 @@ This documentation is a work in progress, expect some innacuracies in the
 instructions.
 ```
 
-```{note}
-These issues will go away once the Fedora git forge is migrated away from
-Pagure backend and you should be able to use the regular git workflows of
-Codeberg (same Forgejo backend that will be used) or GitHub (Forgejo has high
-feature partity with GitHub).
+```{todo}
+Revisit after/during forge migration
 ```
 
 A common pitfall encountered as a non-packager contributor is in the forking
