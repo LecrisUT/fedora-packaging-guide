@@ -21,7 +21,7 @@ example [rpms/bash].
 Sometimes the _source_ spec/rpm (what is in the src.fedoraproject.org) is
 differently named to the _binary_ rpms (what you install with `dnf install`).
 
-You can find the original source from `dnf info` or something like [pkgs.org].
+You can find the original source from `dnf info` or [packages.fedoraproject.org].
 
 ```{code-block} console
 :emphasize-lines: 8
@@ -38,7 +38,7 @@ Source          : atuin-18.6.1-5.fc43.src.rpm
 
 [src.fedoraproject.org]: https://src.fedoraproject.org
 [rpms/bash]: https://src.fedoraproject.org/rpms/bash
-[pkgs.org]: https://pkgs.org
+[packages.fedoraproject.org]: https://packages.fedoraproject.org
 :::
 
 :::{tab-item} Copr project
