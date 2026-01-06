@@ -21,3 +21,14 @@ myst_enable_extensions = [
     "attrs_block",
 ]
 myst_heading_anchors = 2
+
+linkcheck_ignore = [
+    # Linkcheck treats these as anchors, even though they are not
+    r"^https://matrix.to/#/#",
+]
+linkcheck_request_headers = {
+    "*": {
+        "Accept": "text/html",
+        "User-Agent": "sphinx/linkcheck",
+    }
+}
