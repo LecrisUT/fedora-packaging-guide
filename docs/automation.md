@@ -45,7 +45,7 @@ process.
 
 ### Multi-package configuration
 
-One big thing tou can do with the automation is to build packages that depend
+One big thing you can do with the automation is to build packages that depend
 on each other. In this case you need to setup a [monorepo] packit setup,
 basically a dist-git-like repo in separate directories
 ```console
