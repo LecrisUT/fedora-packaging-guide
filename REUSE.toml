@@ -29,11 +29,12 @@ precedence = "override"
 SPDX-FileCopyrightText = "NONE"
 SPDX-License-Identifier = "CC0-1.0"
 
-# Downstream spec files do not have clear copyright/license
+# Downstream spec files are licensed through FPCA, so MIT or equivalent are acceptable
+# Copyright holders are the authors in the changelog
 [[annotations]]
 path = [
 	"docs/**/*.spec",
 ]
 precedence = "override"
-SPDX-FileCopyrightText = "NONE"
-SPDX-License-Identifier = "CC0-1.0"
+SPDX-FileCopyrightText = "Authors in the corresponding Fedora package changelog"
+SPDX-License-Identifier = "MIT"
