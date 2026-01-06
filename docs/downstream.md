@@ -33,8 +33,10 @@ Alternatively you can use the web interface
 ![](images/downstream/fork_1.png)
 ```
 
-```{todo}
-What authentications is expected?
+```{note}
+You should use one of the `fedpkg (clone|fork|push)` etc. commands at least
+once so that it can guide you to setting up the authentication tokens. For this
+you should run it in a session that can open the web browser.
 ```
 
 Once you have the git repo with your fork remote, the git workflow is the
