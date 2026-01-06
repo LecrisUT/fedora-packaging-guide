@@ -296,6 +296,13 @@ sdist = { url = "https://files.pythonhosted.org/packages/c7/b9/fbacae5a5439fc08b
 wheels = [{ url = "https://files.pythonhosted.org/packages/0d/4a/3dcdf5e9bbc05dce85ee154b1ec3507427a2c2332834bd4e5f0541626c3e/sphinx_subfigure-0.2.4-py3-none-any.whl", upload-time = 2022-09-28T07:54:20Z, size = 9152, hashes = { sha256 = "535c890e0c431e9d0ad635f96b91b311560b02300197accc1ec664cb28af44f3" } }]
 
 [[packages]]
+name = "sphinx-tippy"
+version = "0.4.3"
+index = "https://pypi.org/simple"
+sdist = { url = "https://files.pythonhosted.org/packages/1d/2b/411b0a8fdcd6729c0de4ea41fdfa6ac25f5c334ed7a9194075c79f004398/sphinx_tippy-0.4.3.tar.gz", upload-time = 2024-04-23T13:14:45Z, size = 117195, hashes = { sha256 = "255abee0aed8085fdb9ab0cc595cd7a45748ae7f4662156e500a17a3f73ad63d" } }
+wheels = [{ url = "https://files.pythonhosted.org/packages/54/5d/60c9da704aee0f269a6d6bbd0e24ca61ef34effa6fd5863ca46f496e7cea/sphinx_tippy-0.4.3-py3-none-any.whl", upload-time = 2024-04-23T13:14:43Z, size = 9952, hashes = { sha256 = "572b0e001baec9b03e2b19ec4e9760ca1a853f4c3226b5cea251f477b2c2b096" } }]
+
+[[packages]]
 name = "sphinx-togglebutton"
 version = "0.3.2"
 index = "https://pypi.org/simple"

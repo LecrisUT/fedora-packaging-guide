@@ -1,7 +1,7 @@
-# How do I read this magical "spec-file"?
+# How do I read this magical "{term}`spec-file`"?
 
-Let's start with a minimal example spec file. Here you can see a few examples
-depending on the build-system/tools used during the packaging.
+Let's start with a minimal example {term}`spec-file`. Here you can see a few
+examples depending on the build-system/tools used during the packaging.
 
 :::::{tab-set}
 

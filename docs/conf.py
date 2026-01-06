@@ -10,6 +10,7 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx_subfigure",
     "sphinx_togglebutton",
+    "sphinx_tippy",
 ]
 
 html_theme = "furo"
@@ -17,5 +18,6 @@ html_theme = "furo"
 myst_enable_extensions = [
     "colon_fence",
     "deflist",
+    "attrs_block",
 ]
 myst_heading_anchors = 2

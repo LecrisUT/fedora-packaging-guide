@@ -9,6 +9,7 @@ docs = [
     "sphinx-design",
     "sphinx-subfigure",
     "sphinx-togglebutton",
+    "sphinx-tippy",
 ]
 dev = [
     { include-group = "docs" },

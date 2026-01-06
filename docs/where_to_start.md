@@ -1,7 +1,6 @@
 # Where do I begin?
 
-Fedora/RPMs build process is all contained in a spec-file (file with the suffix
-`.spec`).
+Fedora/RPMs build process is all contained in a {term}`spec-file`.
 
 ## Where do I find these spec-files?
 
