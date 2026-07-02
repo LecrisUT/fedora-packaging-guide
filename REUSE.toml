@@ -11,7 +11,8 @@ path = [
 	".pre-commit-config.yaml",
 	".readthedocs.yaml",
 	"README.md",
-	"docs/*.md",
+	"docs/**/*.md",
+	"docs/images/**",
 	"docs/conf.py",
 ]
 SPDX-FileCopyrightText = "2025 Cristian Le <fedora@lecris.me>"
@@ -27,3 +28,13 @@ path = [
 precedence = "override"
 SPDX-FileCopyrightText = "NONE"
 SPDX-License-Identifier = "CC0-1.0"
+
+# Downstream spec files are licensed through FPCA, so MIT or equivalent are acceptable
+# Copyright holders are the authors in the changelog
+[[annotations]]
+path = [
+	"docs/**/*.spec",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "Authors in the corresponding Fedora package changelog"
+SPDX-License-Identifier = "MIT"
