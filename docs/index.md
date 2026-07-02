@@ -8,6 +8,7 @@ to start hacking around.
 :caption: Guiding questions
 :maxdepth: 1
 
+why_package
 where_to_start
 how_to_read
 how_to_build
