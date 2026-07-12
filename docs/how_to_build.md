@@ -25,7 +25,7 @@ $ fedpkg mockbuild
 :sync: mock
 
 If you do not want to use any helper scripts to do the building for you, you
-can invoke the `mock` build directly from an `srpm`, i.e. the source rpm,
+can invoke the `mock` build directly from an `srpm`, i.e. the {term}`source rpm`,
 basically just an archive of the spec file and its sources and patches. First
 to get the `srpm` you can use `fedpkg srpm` or `mock --buildsrpm` [^1]
 ```console
