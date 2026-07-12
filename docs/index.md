@@ -26,6 +26,15 @@ whats_next
 build_faq/index
 ```
 
+## Other guides
+
+This guide is primarily aimed for people who learn from hacking on an existing
+projects. If that is not your cup of tea, consider some other guides like:
+- [Fedora packaging tutorial]: a more step-by-step guide for packaging a new
+  package from existing project.
+
+[Fedora packaging tutorial]: https://docs.fedoraproject.org/en-US/package-maintainers/Packaging_Tutorial/
+
 ## License and reuse
 
 This guide is licensed under Creative Commons Attribution-ShareAlike 4.0
